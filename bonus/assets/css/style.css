@@ -12,8 +12,20 @@ img {
 /* #endregion Common */
 
 /* #region Main */
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
 .color {
     color: blue;
+}
+
+#id {
+    width: 500px;
+    height: 500px;
 }
 /* #endregion Main */
 
