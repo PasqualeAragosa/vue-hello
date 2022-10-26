@@ -8,14 +8,22 @@
 img {
     max-width: 100%;
 }
+
 /* #endregion Common */
 
-/* #region Header */
-
-/* #endregion Header */
-
 /* #region Main */
+.color {
+    color: blue;
+}
 
+#picsum {
+    width: 200px;
+    height: 300px;
+}
+.random_image {
+    background-image: url('https://i.picsum.photos/id/83/200/300.jpg?grayscale&hmac=oKvr7XvXWNAfiGxcA2ZgRrdbM5GTHeLihTRUuaLYPSc');
+    background-repeat: no-repeat;
+}
 /* #endregion Main */
 
 /* #region Footer */
